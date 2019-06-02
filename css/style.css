@@ -184,6 +184,17 @@ button.primary_btn {
 .social_icons{
     background: #fff;
 }
+
+.feature-animation-section{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.client-img-fluid {
+    max-width: 40%;
+    height: auto
+}
+
 .primary_btn {
     display: inline-block;
     background: #000;
@@ -205,6 +216,8 @@ button.primary_btn {
     background-color: #f98560;
     color: #fff;
 }
+
+
 .primary_btn2 {
     font-size: 13px;
     font-weight: 500;
@@ -253,7 +266,7 @@ button.primary_btn {
 }
 .header_area .menu_nav {
     width: 100%;
-    margin-left: 140px;
+    margin-left: 75%;
 }
 @media (max-width: 991px) {
     .header_area .menu_nav {
@@ -376,7 +389,7 @@ button.primary_btn {
     margin-right: 0px;
 }
 .header_area.header_inner_page .nav-item .nav-link {
-    color: #fff;
+    color: #000000;
 }
 .header_area.header_inner_page.navbar_fixed .main_menu {
     background: #fff;
@@ -386,11 +399,13 @@ button.primary_btn {
     background: #fff;
 }
 }.home_banner_area {
-    background: url(../img/banner/home-banner.png) no-repeat top center;
+    /*background: url(../img/banner/home-banner.png) no-repeat top center;*/
     background-position: center;
     background-size: cover;
     min-height: 890px;
 }
+
+
 @media (max-width: 991px) {
     .home_banner_area {
     min-height: 750px;
@@ -399,6 +414,8 @@ button.primary_btn {
     .home_banner_area {
     background: #ffffff;
 }
+
+
 }.home_banner_area .banner_inner {
     width: 100%;
     min-height: 890px;
@@ -3346,7 +3363,6 @@ h6 {
     margin-bottom: 0rem;
     margin-top: 1rem;
     position: relative;
-    padding-top: 5%;
 }
 
 @media (max-width: 1024px) {
