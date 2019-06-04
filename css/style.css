@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display:300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Spectral:600,700,800');
     body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
+    font-family: "Karla", sans-serif;
     color: #797979;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -1693,7 +1693,7 @@ button.primary_btn {
     margin-top: 30px;
 }
 }b, sup, sub, u, del {
-    color: #f8b600;
+    color: #111118;
 }
 h1 {
     font-size: 36px;
@@ -2846,7 +2846,7 @@ h6 {
 }
 }.portfolio_details_inner p {
     margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .portfolio_details_inner p:last-child {
     margin-bottom: 0px;
