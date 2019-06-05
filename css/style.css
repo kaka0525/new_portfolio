@@ -91,6 +91,12 @@ button.primary_btn {
     display: block;
     margin: 0 auto;
 }
+
+.body-text-highlighted {
+    border-bottom: 4px solid rgba(255, 195, 64, .39);
+    font-weight: 400;
+}
+
 @media (max-width: 1199px) {
     .section_gap {
     padding: 80px 0;
@@ -266,7 +272,7 @@ button.primary_btn {
 }
 .header_area .menu_nav {
     width: 100%;
-    margin-left: 75%;
+    margin-left: 70%;
 }
 @media (max-width: 991px) {
     .header_area .menu_nav {
@@ -403,6 +409,7 @@ button.primary_btn {
     background-position: center;
     background-size: cover;
     min-height: 890px;
+    padding-top: 10%;
 }
 
 
