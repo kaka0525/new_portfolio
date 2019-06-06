@@ -145,7 +145,7 @@ button.primary_btn {
     border-radius: 5px;
 }
 .main_title h2 {
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 0px;
     line-height: 52px;
@@ -228,11 +228,11 @@ button.primary_btn {
 }
 
 .interview-quote blockquote * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .interview-quote blockquote p {
-    color: #75808a; 
+    color: #75808a;
     line-height: 1.4 !important;
 }
 
@@ -244,7 +244,7 @@ button.primary_btn {
     opacity: .3;
     position: absolute;
     top: -.4em;
-    left: -.2em;    
+    left: -.2em;
     text-shadow: none;
     z-index: -300;
 }
@@ -256,16 +256,16 @@ button.primary_btn {
     width: 120px;
     height: 120px;
     position: absolute;
-    top: -.2em; 
-    left: 0;    
+    top: -.2em;
+    left: 0;
 }
 
 .interview-quote cite {
     color: gray;
     display: block;
-    font-size: .8em; 
+    font-size: .8em;
 }
-  
+
 .interview-quote cite span {
     color: #5e5e5e;
     font-size: 1em;
@@ -273,20 +273,20 @@ button.primary_btn {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 0 1px white; 
+    text-shadow: 0 1px white;
 }
 
 .interview-quote {
-    position: relative; 
+    position: relative;
 }
 
 .interview-quote .quote-container {
-    padding-left: 160px; 
+    padding-left: 160px;
 }
-  
+
 .interview-quote.right .quote-container {
     padding-left: 0;
-    padding-right: 160px; 
+    padding-right: 160px;
 }
 
 .interview-quote.right img {
@@ -295,7 +295,7 @@ button.primary_btn {
 }
 
 .interview-quote.right cite {
-    text-align: right; 
+    text-align: right;
 }
 
 .primary_btn {
@@ -359,6 +359,16 @@ button.primary_btn {
 }
 .header_area .logo_inner_page {
     display: none;
+}
+
+#navbar_logo {
+    font-family: "Karla","Spectral", "Playfair Display", sans-serif;
+}
+
+#logo-dot {
+    color: #F98560;
+    font-size: 35px;
+    margin-left: 2%;
 }
 .header_area.header_inner_page .navbar-brand {
     display: none;
@@ -2967,15 +2977,15 @@ h6 {
 }
 .portfolio_details_inner .portfolio_right_text p {
     margin-bottom: 25px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .portfolio_details_inner .portfolio_right_text .list li {
     margin-bottom: 7px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
 }
 .portfolio_details_inner .portfolio_right_text .list li span {
-    font-family: "Roboto", sans-serif;
+    font-family: "Karla", sans-serif;
     color: #000000;
     font-size: 16px;
     font-weight: 500;
@@ -3019,6 +3029,7 @@ h6 {
 }
 .single-blog .short_details {
     background: #fbf7f1;
+    text-align: center;
     padding: 32px 30px 37px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
