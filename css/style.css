@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300, 400, 500, 700");
 @import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display:300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Spectral:600,700,800');
-    body {
+body {
     font-size: 16px;
     line-height: 27px;
     font-weight: 300;
@@ -217,8 +217,8 @@ button.primary_btn {
 
     background: none;
     color: gray;
-    font-family: Georgia, serif;
-    font-size: 1.5em;
+    font-family: "Karla", serif;
+    font-size: 1.25em;
     font-style: italic;
     line-height: 1.4 !important;
     margin: 0;
@@ -233,12 +233,14 @@ button.primary_btn {
 
 .interview-quote blockquote p {
     color: #75808a;
+    margin-top: 5%;
     line-height: 1.4 !important;
+    font-family: "Karla", sans-serif;
 }
 
-.interview-quote blockquote p:first-child:before {
+.interview-first-quote blockquote p:first-child:before {
     content: '\201C';
-    color: #81bedb;
+    color: #f3d7ac;
     font-size: 7.5em;
     font-weight: 700;
     opacity: .3;
@@ -250,7 +252,7 @@ button.primary_btn {
 }
 
 .interview-quote img {
-    border: 3px solid #9CC1D3;
+    border: 3px solid #f3d7ac;;
     border-radius: 50%;
     display: block;
     width: 120px;
@@ -2868,6 +2870,12 @@ h6 {
 }
 .portfolio_area {
     padding-bottom: 110px;
+}
+
+.portfolio_summary{
+    padding: 20px;
+    background-color: #fbf7f1;
+
 }
 @media (max-width: 991px) {
     .portfolio_area {
